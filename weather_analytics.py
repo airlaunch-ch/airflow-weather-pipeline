@@ -66,7 +66,7 @@ cities = [
     {"country": "United States", "name": "Mesa", "state":"Arizona"}
 ]
 
-@dag(schedule_interval="@daily", start_date=datetime(2016,8,1), end_date=datetime(2017,8,1), catchup=True, default_args=default_args)
+@dag(schedule_interval="@daily", start_date=datetime(2016,8,1), end_date=datetime(2016,8,2), catchup=True, default_args=default_args)
 def weather_data_dag():
 
     @task()
