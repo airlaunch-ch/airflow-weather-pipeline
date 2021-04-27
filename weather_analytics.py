@@ -7,7 +7,7 @@ from datetime import timedelta, datetime
 from airflow.decorators import dag, task
 from airflow.utils.dates import days_ago
 
-from ncdc.ncdc_helpers import hello
+#from ncdc.ncdc_helpers import hello
 
 
 # These args will get passed on to each operator
