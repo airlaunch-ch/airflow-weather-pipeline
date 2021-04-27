@@ -29,6 +29,6 @@ def weather_data_dag():
         print("hello dag")
         return
 
-   extract_google_analytics_data()
+    extract_google_analytics_data()
 
 weather_data_dag = weather_data_dag()
