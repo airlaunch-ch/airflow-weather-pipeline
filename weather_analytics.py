@@ -9,7 +9,6 @@ from airflow.utils.dates import days_ago
 
 from ncdc.ncdc_helpers import hello
 
-
 # These args will get passed on to each operator
 # You can override them on a per-task basis during operator initialization
 default_args = {
